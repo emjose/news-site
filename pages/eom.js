@@ -8,10 +8,10 @@ export const EOM = ({ employee }) => {
     )
 };
 
-// export const getServerSideProps = async pageContext => {
-//     const apiResponse = await fetch(
-//         ''
-//     )
-// }
+export const getServerSideProps = async pageContext => {
+    const apiResponse = await fetch(
+        ''
+    );
+}
 
 export default EOM;
