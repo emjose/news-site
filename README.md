@@ -85,7 +85,7 @@ npm install
 ```
 npm run dev
 ```
-#### Open [http://localhost:3000](http://localhost:3000){:target="_blank"} with your browser to launch the News Site app.
+#### Open <a href="http://localhost:3000" alt="Localhost 3000" target="_blank">http://localhost:3000</a> with your browser to launch the News Site app.
 
 #
 
