@@ -62,10 +62,10 @@ git clone git@github.com:emjose/news-site.git && cd news-site
 ```
 NEXT_PUBLIC_NEWS_KEY=
 ```
-#### Copy and paste your News API key after the equal sign:
-```
-NEXT_PUBLIC_NEWS_KEY=Your-API-Key (no spaces or dashes)
-```
+#### Copy and paste your News API key after the equal sign character:
+<pre>
+NEXT_PUBLIC_NEWS_KEY=<b>Your-API-Key</b> (your key should have no spaces or dashes)
+</pre>
 #### Install dependencies:
 ```
 npm install
