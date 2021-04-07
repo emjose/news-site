@@ -58,13 +58,13 @@ git clone git@github.com:emjose/news-site.git && cd news-site
 ```
 .env
 ```
-#### In the .env file, copy and paste this line:
+#### In the .env file, paste this line:
 ```
 NEXT_PUBLIC_NEWS_KEY=
 ```
-#### Copy and paste your News API key after the equal sign character:
+#### Paste your [News API](https://newsapi.org/) key after the equal sign character:
 <pre>
-NEXT_PUBLIC_NEWS_KEY=<b>YOUR-API-KEY</b> (Your alphanumeric API key should have no spaces or dashes)
+NEXT_PUBLIC_NEWS_KEY=<b>NEWS-API-KEY</b> (The API key should have no spaces or dashes)
 </pre>
 #### The API key is used in the fetch requrest located in /pages/feed/[slate].js
 ```
