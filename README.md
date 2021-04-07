@@ -47,7 +47,7 @@
 
 #### Git clone and cd into the repo folder:
 ``` 
-git clone git@github.com:emjose/***repo-name***.git && cd ***repo-name*** 
+git clone git@github.com:emjose/news-site.git && cd news-site 
 ```
 #### The app requires an API key from [News API](https://newsapi.org/)
 - Log in or register at [News API](https://newsapi.org/).
@@ -58,11 +58,11 @@ git clone git@github.com:emjose/***repo-name***.git && cd ***repo-name***
 ```
 .env
 ```
-### In the .env file, copy and paste this line:
+#### In the .env file, copy and paste this line:
 ```
 NEXT_PUBLIC_NEWS_KEY=
 ```
-### Copy and paste your News API key after the equal sign:
+#### Copy and paste your News API key after the equal sign:
 ```
 NEXT_PUBLIC_NEWS_KEY=Your-API-Key (no spaces or dashes)
 ```
