@@ -52,6 +52,7 @@ git clone git@github.com:emjose/news-site.git && cd news-site
 #### The app requires an API key from [News API](https://newsapi.org/)
 - Log in or register at [News API](https://newsapi.org/).
 - Once logged in, press the "Get API Key" button.
+- The generated API key will be alphanumeric and 32 characters long.
 - Keep the browser tab with your News API key open for reference.
 
 #### In the main root directory of the project files, create a new file called:
@@ -64,7 +65,7 @@ NEXT_PUBLIC_NEWS_KEY=
 ```
 #### Copy and paste your News API key after the equal sign character:
 <pre>
-NEXT_PUBLIC_NEWS_KEY=<b>Your-API-Key</b> (your key should have no spaces or dashes)
+NEXT_PUBLIC_NEWS_KEY=<b>YOUR-API-KEY</b> (Your alphanumeric API key should have no spaces or dashes)
 </pre>
 #### Install dependencies:
 ```
