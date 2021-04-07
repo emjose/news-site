@@ -66,7 +66,7 @@ NEXT_PUBLIC_NEWS_KEY=
 <pre>
 NEXT_PUBLIC_NEWS_KEY=<b>NEWS-API-KEY</b> (The API key should have no spaces or dashes)
 </pre>
-#### The variable storing the API key is used in the fetch requrest located in /pages/feed/[slate].js
+#### The API key variable is used in the fetch request located in /pages/feed/[slate].js
 ```
 const apiResponse = await fetch(
         `https://newsapi.org/v2/top-headlines?country=us&pageSize=5&page=${pageNumber}`,
