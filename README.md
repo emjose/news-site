@@ -32,7 +32,7 @@
 
 <a href=#100days>![#100DaysOfCode](Assets/inter-100hash.png)</a>  
 
-### Day 00: ***Date***
+### Day 27: April 2021
 - text
   
 - text
@@ -45,7 +45,7 @@
 
 <a href=#installation>![Installation](Assets/inter-installation.png)</a>
 
-#### PREREQUISITE: The app requires an API key from [News API](https://newsapi.org/)
+#### PREREQUISITE: This app requires an API key from [News API](https://newsapi.org/)
 - Log in or register at [News API](https://newsapi.org/).
 - Once logged in, press the "Get API Key" button.
 - The generated API key will be alphanumeric and 32 characters long.
@@ -54,11 +54,11 @@
 ``` 
 git clone git@github.com:emjose/news-site.git && cd news-site 
 ```
-#### In the main root directory of the project files, create a new file called:
+#### In the main root directory of the project files, create a new environment file called:
 ```
 .env
 ```
-#### In the .env file, paste this line:
+#### In the .env file, a variable needs to be created to store the API key. Paste this line:
 ```
 NEXT_PUBLIC_NEWS_KEY=
 ```
@@ -66,7 +66,7 @@ NEXT_PUBLIC_NEWS_KEY=
 <pre>
 NEXT_PUBLIC_NEWS_KEY=<b>NEWS-API-KEY</b> (The API key should have no spaces or dashes)
 </pre>
-#### The API key is used in the fetch requrest located in /pages/feed/[slate].js
+#### The variable storing the API key is used in the fetch requrest located in /pages/feed/[slate].js
 ```
 const apiResponse = await fetch(
         `https://newsapi.org/v2/top-headlines?country=us&pageSize=5&page=${pageNumber}`,
@@ -85,7 +85,44 @@ npm install
 ```
 npm run dev
 ```
-#### Open [http://localhost:3000](http://localhost:3000) with your browser to launch the app.
+#### Open [http://localhost:3000](http://localhost:3000) with your browser to launch the News Site app.
+
+#
+
+<p id="live-site"><p>
+
+<a href="vercel url">![Live Site](Assets/inter-live-site.png)</a>
+
+<a href="vercel url">![Live Site](Assets/027-news-site.gif)</a>
+
+#
+
+<p id="resources"><p>
+
+<a href=#resources>![Resources](Assets/inter-resources.png)</a>  
+
+- #### [News API](https://newsapi.org/) 
+
+- #### [Next.js on Github](https://github.com/vercel/next.js/) 
+
+- #### [Learn about Next.js](https://nextjs.org/docs)  
+
+- #### [An Interactive Next.js Tutorial](https://nextjs.org/learn)  
+
+- #### [My blog on how I created my Github READMEs](https://emmanueljose.medium.com/readme-a-makeover-story-b9c7be37a6de?sk=7ae6623d365409d875753e4604e42ffd) 
+
+#
+
+<p id="lets-connect"><p>
+
+<a href=#lets-connect>![Let's Connect!](Assets/inter-lets-connect.png)</a>
+
+<p><a href="https://twitter.com/Emmanuel_Labor"><img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" height=30 width=90 alt="Twitter badge"> <a href="https://www.linkedin.com/in/emmanuelpjose/"><img src="https://img.shields.io/badge/linkedin-%230064e7.svg?&style=for-the-badge&logo=linkedin&logoColor=white" height=30 width=90 alt="Linkedin badge"> <a href="https://emmanueljose.medium.com/"><img src="https://img.shields.io/badge/medium-%238700f5.svg?&style=for-the-badge&logo=medium&logoColor=white" height=30 width=90 alt="Medium badge"> <a href="https://www.instagram.com/emmanuel_jose/"><img src="https://img.shields.io/badge/instagram-%23ff0077.svg?&style=for-the-badge&logo=instagram&logoColor=white" height=30 width=90 alt="Instagram badge"> <a href="mailto:emjose@gmail.com"><img src="https://img.shields.io/badge/gmail-%23fd1745.svg?&style=for-the-badge&logo=gmail&logoColor=white" height=30 width=90 alt="Gmail badge"> <a href="https://www.youtube.com/channel/UCQdqFg-_J83jn9xJRd1W3tQ/videos"><img src="https://img.shields.io/badge/youtube-%23FF0000.svg?&style=for-the-badge&logo=youtube&logoColor=white" height=30 width=90 alt="Youtube badge"> <a href="https://github.com/emjose"><img src="https://img.shields.io/badge/github-%23ff8e44.svg?&style=for-the-badge&logo=github&logoColor=white" height=30 width=90 alt="Youtube badge"></p>
+
+#
+
+<a href=#header>![Back to Top](Assets/inter-congrats.png)</a> 
+
 <!-- #
 
 <p id="app-launch"><p>
@@ -128,39 +165,3 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 <!-- The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details. -->
-
-#
-
-<p id="live-site"><p>
-
-<a href="vercel url">![Live Site](Assets/inter-live-site.png)</a>
-
-<a href="vercel url">![Live Site](Assets/027-news-site.gif)</a>
-
-#
-
-<p id="resources"><p>
-
-<a href=#resources>![Resources](Assets/inter-resources.png)</a>  
-
-- #### [Learn about Next.js](https://nextjs.org/docs)  
-
-- #### [An Interactive Next.js Tutorial](https://nextjs.org/learn)  
-
-- #### [the Next.js GitHub repository](https://github.com/vercel/next.js/)  
-
-- #### [News API](https://newsapi.org/) 
-
-- #### [My blog on how I created my Github READMEs](https://emmanueljose.medium.com/readme-a-makeover-story-b9c7be37a6de?sk=7ae6623d365409d875753e4604e42ffd) 
-
-#
-
-<p id="lets-connect"><p>
-
-<a href=#lets-connect>![Let's Connect!](Assets/inter-lets-connect.png)</a>
-
-<p><a href="https://twitter.com/Emmanuel_Labor"><img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" height=30 width=90 alt="Twitter badge"> <a href="https://www.linkedin.com/in/emmanuelpjose/"><img src="https://img.shields.io/badge/linkedin-%230064e7.svg?&style=for-the-badge&logo=linkedin&logoColor=white" height=30 width=90 alt="Linkedin badge"> <a href="https://emmanueljose.medium.com/"><img src="https://img.shields.io/badge/medium-%238700f5.svg?&style=for-the-badge&logo=medium&logoColor=white" height=30 width=90 alt="Medium badge"> <a href="https://www.instagram.com/emmanuel_jose/"><img src="https://img.shields.io/badge/instagram-%23ff0077.svg?&style=for-the-badge&logo=instagram&logoColor=white" height=30 width=90 alt="Instagram badge"> <a href="mailto:emjose@gmail.com"><img src="https://img.shields.io/badge/gmail-%23fd1745.svg?&style=for-the-badge&logo=gmail&logoColor=white" height=30 width=90 alt="Gmail badge"> <a href="https://www.youtube.com/channel/UCQdqFg-_J83jn9xJRd1W3tQ/videos"><img src="https://img.shields.io/badge/youtube-%23FF0000.svg?&style=for-the-badge&logo=youtube&logoColor=white" height=30 width=90 alt="Youtube badge"> <a href="https://github.com/emjose"><img src="https://img.shields.io/badge/github-%23ff8e44.svg?&style=for-the-badge&logo=github&logoColor=white" height=30 width=90 alt="Youtube badge"></p>
-
-#
-
-<a href=#header>![Back to Top](Assets/inter-congrats.png)</a> 
