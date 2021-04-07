@@ -49,11 +49,28 @@
 ``` 
 git clone git@github.com:emjose/***repo-name***.git && cd ***repo-name*** 
 ```
+#### The app requires an API key from [News API](https://newsapi.org/)
+- Log in or register at [News API](https://newsapi.org/)
+- Once logged in, press the "Get API Key" button.
+- Copy the API key
+
+#### In the main root directory of the project files, create a new file called:
+```
+.env
+```
+### In the .env file, paste this line:
+```
+NEXT_PUBLIC_NEWS_KEY=
+```
+### Copy and paste your API key after the equal sign:
+```
+NEXT_PUBLIC_NEWS_KEY=Your-API-Key (no spaces or dashes)
+```
 #### Install dependencies:
 ```
 npm install
 ```
-#### After <a href=#installation>installation</a> steps, run the development server:
+#### Run the development server:
 ```
 npm run dev
 ```
