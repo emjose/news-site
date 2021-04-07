@@ -45,16 +45,15 @@
 
 <a href=#installation>![Installation](Assets/inter-installation.png)</a>
 
-#### Git clone and cd into the repo folder:
-``` 
-git clone git@github.com:emjose/news-site.git && cd news-site 
-```
-#### The app requires an API key from [News API](https://newsapi.org/)
+#### PREREQUISITE: The app requires an API key from [News API](https://newsapi.org/)
 - Log in or register at [News API](https://newsapi.org/).
 - Once logged in, press the "Get API Key" button.
 - The generated API key will be alphanumeric and 32 characters long.
 - Keep the browser tab with your News API key open for reference.
-
+#### Git clone and cd into the repo folder:
+``` 
+git clone git@github.com:emjose/news-site.git && cd news-site 
+```
 #### In the main root directory of the project files, create a new file called:
 ```
 .env
@@ -67,7 +66,18 @@ NEXT_PUBLIC_NEWS_KEY=
 <pre>
 NEXT_PUBLIC_NEWS_KEY=<b>YOUR-API-KEY</b> (Your alphanumeric API key should have no spaces or dashes)
 </pre>
-#### Install dependencies:
+#### The API key is used in the fetch requrest located in /pages/feed/[slate].js
+```
+const apiResponse = await fetch(
+        `https://newsapi.org/v2/top-headlines?country=us&pageSize=5&page=${pageNumber}`,
+        {
+            headers: {
+                Authorization: `Bearer ${process.env.NEXT_PUBLIC_NEWS_KEY}`,
+            },
+        },
+    );
+```
+#### Back in the terminal, install dependencies:
 ```
 npm install
 ```
