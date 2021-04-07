@@ -50,19 +50,19 @@
 git clone git@github.com:emjose/***repo-name***.git && cd ***repo-name*** 
 ```
 #### The app requires an API key from [News API](https://newsapi.org/)
-- Log in or register at [News API](https://newsapi.org/)
+- Log in or register at [News API](https://newsapi.org/).
 - Once logged in, press the "Get API Key" button.
-- Copy the API key
+- Keep the browser tab with your News API key open for reference.
 
 #### In the main root directory of the project files, create a new file called:
 ```
 .env
 ```
-### In the .env file, paste this line:
+### In the .env file, copy and paste this line:
 ```
 NEXT_PUBLIC_NEWS_KEY=
 ```
-### Copy and paste your API key after the equal sign:
+### Copy and paste your News API key after the equal sign:
 ```
 NEXT_PUBLIC_NEWS_KEY=Your-API-Key (no spaces or dashes)
 ```
