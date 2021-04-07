@@ -22,7 +22,6 @@
 
 - [100 Days of Code](#100days)
 - [Installation](#installation)
-- [App Launch](#app-launch) 
 - [Live Site](#live-site)
 - [Resources](#resources)
 - [Let's Connect!](#lets-connect) 
@@ -54,34 +53,36 @@ git clone git@github.com:emjose/***repo-name***.git && cd ***repo-name***
 ```
 npm install
 ```
-
-#
+#### After <a href=#installation>installation</a> steps, run the development server:
+```
+npm run dev
+```
+#### Open [http://localhost:3000](http://localhost:3000) with your browser to launch the app.
+<!-- #
 
 <p id="app-launch"><p>
 
-<a href=#app-launch>![App Launch](Assets/inter-app-launch.png)</a>
+<a href=#app-launch>![App Launch](Assets/inter-app-launch.png)</a> -->
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<!-- This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). -->
 
 <!-- ## Getting Started -->
 
-First, run the development server:
+<!-- First, run the development server: -->
 
-```bash
+
+<!-- ```bash
 npm run dev
 # or
 yarn dev
-```
+``` -->
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 <!-- You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
 [API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages. -->
-
-#
 
 <!-- ## Learn More -->
 
@@ -120,7 +121,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 - #### [the Next.js GitHub repository](https://github.com/vercel/next.js/)  
 
-- #### [***alt-text***](***URL***)  
+- #### [News API](https://newsapi.org/) 
 
 - #### [My blog on how I created my Github READMEs](https://emmanueljose.medium.com/readme-a-makeover-story-b9c7be37a6de?sk=7ae6623d365409d875753e4604e42ffd) 
 
