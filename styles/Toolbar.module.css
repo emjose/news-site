@@ -15,8 +15,8 @@ font-family: 'Ultra', serif; */
   justify-content: center;
   /* background-color: #000; */
   /* font-family: Helvetica Neue; */
-  background: rgb(20, 113, 252);
-  text-transform: uppercase;
+  background: #ffdccc;
+
   /* background: url(https://images.unsplash.com/photo-1616234472863-c19801c1efa7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2100&q=80)
     no-repeat; */
 }
@@ -26,9 +26,12 @@ font-family: 'Ultra', serif; */
   cursor: pointer;
   font-size: 2.5em;
   color: white;
-  font-family: "Secular One", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 900;
+  font-family: "Roboto", sans-serif;
 }
 
 .main div:hover {
-  color: rgb(168, 168, 168);
+  color: rgb(0, 0, 0);
 }
