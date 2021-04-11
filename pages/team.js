@@ -12,7 +12,7 @@ export const team = ({ team }) => {
 
                 <div className={styles.teamMembers}>
                     <a href="https://www.instagram.com/cocodottie/" target="_blank"><h3>{team.name}</h3></a>
-                    <a href="hhttps://www.instagram.com/cocodottie/" target="_blank"><h6>{team.position}</h6></a>
+                    <a href="https://www.instagram.com/cocodottie/" target="_blank"><h6>{team.position}</h6></a>
                     <a href="https://www.instagram.com/cocodottie/" target="_blank"><img src={team.image} alt="Coco and Dottie"/></a>
                     <a href="https://github.com/emjose" target="_blank"><p>{team.description}</p></a>
 
