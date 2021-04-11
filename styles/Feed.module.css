@@ -26,7 +26,7 @@ font-family: 'Ultra', serif; */
 .post {
   width: 600px;
   height: auto;
-  margin-bottom: 25px;
+  margin-bottom: 35px;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 20px;
@@ -37,6 +37,14 @@ font-family: 'Ultra', serif; */
   border-radius: 5px;
   background-color: white;
   line-height: 1.5;
+  box-shadow: 4px 4px 16px #85abcf;
+}
+
+.post {
+  transition: all 0.2s ease-in-out;
+}
+.post:hover {
+  transform: scale(1.03);
 }
 
 .post img {
