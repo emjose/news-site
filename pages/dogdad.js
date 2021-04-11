@@ -1,7 +1,7 @@
-import styles from '../styles/DogDad.module.css'
+import styles from '../styles/dogDad.module.css'
 import { Toolbar } from '../components/toolbar'
 
-export const dogDad = ({ dogDad }) => {
+export const dogDad = ({ dad }) => {
     return(
         <div className="page-container">
 
@@ -11,10 +11,10 @@ export const dogDad = ({ dogDad }) => {
                 <h1>Dog Dad</h1>
 
                 <div className={styles.dogDad}>
-                    <h3>{dogDad.name}</h3>
-                    <h6>{dogDad.position}</h6>
-                    <img src={dogDad.image} alt="Dog Dad"/>
-                    <p>{dogDad.description}</p>
+                    <h3>{dad.name}</h3>
+                    <h6>{dad.position}</h6>
+                    <img src={dad.image} alt="Dog Dad"/>
+                    <p>{dad.description}</p>
 
                 </div>
             </div>
@@ -27,11 +27,11 @@ export const getServerSideProps = async pageContext => {
         'https://my-json-server.typicode.com/emjose/news-site/dogDad'
     );
 
-    const dogDad = await apiResponse.json();
+    const dad = await apiResponse.json();
 
     return {
         props: {
-            dogDad,
+            dad,
         },
     };
 };

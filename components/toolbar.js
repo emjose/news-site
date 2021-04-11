@@ -8,7 +8,7 @@ export const Toolbar = () => {
         <div className={styles.main}>
             <div onClick={() => router.push('/')}>Home</div>
             <div onClick={() => router.push('/feed/1')}>Feed</div>
-            <div onClick={() => router.push('/eom')}>EOM</div>
+            <div onClick={() => router.push('/dogdad')}>Dog Dad</div>
             <div onClick={() => window.open('https://twitter.com/Emmanuel_Labor','_blank')}>Twitter</div>
         </div>
     )
