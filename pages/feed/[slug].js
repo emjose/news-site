@@ -77,7 +77,6 @@ export const getServerSideProps = async pageContext => {
         },
     };
 
-
 }
 
 export default Feed;

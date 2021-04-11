@@ -14,16 +14,16 @@
   font-family: "Alfa Slab One", cursive;
 }
 
-.main h3 {
+/* .main h3 {
   font-size: 2.5em;
   margin-top: -20px;
   font-weight: 700;
   color: rgb(54, 54, 54);
   font-family: "BlinkMacSystemFont", sans-serif;
-}
+} */
 
 .main h6 {
-  font-size: 1.9em;
+  font-size: 2.65em;
   margin-top: -15px;
   font-weight: 700;
   margin-bottom: 20px;
@@ -32,20 +32,30 @@
 }
 
 .main p {
-  font-size: 1.85em;
-  margin-top: 30px;
+  font-size: 2em;
+  margin-top: 40px;
   font-weight: 700;
   margin-bottom: 20px;
+  text-transform: uppercase;
   color: #5b9ac2;
   font-family: "BlinkMacSystemFont", sans-serif;
 }
 
 .teamMembers {
   text-align: center;
+  margin-top: -20px;
 }
 
 .teamMembers img {
   width: 450px;
+  margin-top: 15px;
   border-radius: 100%;
   box-shadow: 4px 6px 19px #77959e;
+  filter: brightness(110%);
+}
+
+.main h1:hover,
+.main h6:hover,
+.main p:hover {
+  color: red;
 }
