@@ -35,3 +35,11 @@ font-family: 'Ultra', serif; */
 .main div:hover {
   color: #000000;
 }
+
+@media (max-width: 800px) {
+  .main div {
+    padding-top: 20px;
+    margin: 10px;
+    font-size: 1.25em;
+  }
+}
