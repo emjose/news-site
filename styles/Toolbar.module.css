@@ -22,8 +22,8 @@ font-family: 'Ultra', serif; */
   font-size: 3em;
   color: white;
   letter-spacing: 1px;
-
   font-family: "Alfa Slab One", cursive;
+  white-space: nowrap;
 }
 
 .main div:hover {
