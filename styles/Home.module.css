@@ -13,11 +13,14 @@
   margin-top: 20px;
   font-size: 6.5em;
   color: #fff;
-  user-select: none;
   letter-spacing: 3px;
   white-space: nowrap;
   font-weight: 400;
   font-family: "Alfa Slab One", cursive;
+}
+
+.main h1:hover {
+  color: #fad60b;
 }
 
 @media (max-width: 1200px) {
