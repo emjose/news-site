@@ -12,9 +12,9 @@ export const Feed = ({ pageNumber, articles }) => {
             <div className={styles.main}>
                 {articles.map((article, index) => (
                     <div key={index} className={styles.post}>
+                        {!!article.urlToImage && <img src={article.urlToImage} alt='news article image' />}
                         <h1 onClick={() => window.open(article.url,'_blank')}>{article.title}</h1>
                         <p>{article.description}</p>
-                        {!!article.urlToImage && <img src={article.urlToImage} alt='news article image' />}
                     </div>
                 ))}
             </div>
