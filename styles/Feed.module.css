@@ -13,20 +13,25 @@ font-family: 'Ultra', serif; */
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
 
 .main {
-  display: flex;
+  /* display: flex;
   margin-top: 50px;
   align-items: center;
-  flex-direction: column;
+  flex-direction: column; */
   /* background-color: white; */
   /* display: grid;
   grid-template-columns: repeat (3, 1fr);
   grip-gap: 0; */
+
+  margin: 60px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
 }
 
 .post {
-  width: 600px;
+  width: 400px;
   height: auto;
-  margin-bottom: 35px;
+  margin-bottom: 5px;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 20px;
@@ -43,6 +48,7 @@ font-family: 'Ultra', serif; */
 .post {
   transition: all 0.2s ease-in-out;
 }
+
 .post:hover {
   transform: scale(1.03);
 }
@@ -58,25 +64,21 @@ font-family: 'Ultra', serif; */
   font-family: "-apple-system", sans-serif;
 }
 
-/* .post description {
-  padding-top: 10px;
-  line-height: 25px;
-  font-size: 14px;
-  padding-bottom: 10px;
-} */
-
 .paginator {
   width: 100%;
   display: flex;
   justify-content: center;
-  font-size: 1.25em;
-  font-weight: 700;
+  font-size: 2.5em;
+  font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 0.75px;
+  font-family: "Lalezar", cursive;
 }
 
 .paginator div {
   margin: 25px;
+  /* padding-top: -35px; */
+  padding-bottom: 20px;
 }
 
 .paginator .active {
