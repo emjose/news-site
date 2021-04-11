@@ -9,7 +9,7 @@ export const Feed = ({ pageNumber, articles }) => {
     return (
         <div className='page-container'>
             <Toolbar />
-            <div className={styles.main} grid grid-cols-3 gap-4>
+            <div className={styles.main}>
                 {articles.map((article, index) => (
                     <div onClick={() => window.open(article.url,'_blank')} key={index} className={styles.post}>
                         {!!article.urlToImage && <img src={article.urlToImage} alt='news article image' />}
