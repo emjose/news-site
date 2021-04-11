@@ -1,7 +1,7 @@
 <p id="header"><p>
 
 <table><tr>
-<td> <a href="https://github.com/emjose/***previous-repo***/#header"><img src="Assets/header-left.png" alt="previous" style="width: 200px;"/></a> </td>
+<td> <a href="https://github.com/emjose/model-minority-myth/#header"><img src="Assets/header-left.png" alt="previous" style="width: 200px;"/></a> </td>
 <td> <a href="https://github.com/emjose/one-hundred/#header"><img src="Assets/header-center.png" alt="100 days of code" style="width: 580px;"/></a> </td>
 <td> <a href=#header><img src="Assets/header-right-g.png" alt="next" style="width: 200px;"/></a> </td>
 </tr></table>
@@ -32,12 +32,14 @@
 
 <a href=#100days>![#100DaysOfCode](Assets/inter-100hash.png)</a>  
 
-### Day 27: April 2021
-- text
+### Day 27: April 12, 2021
+- I started learning <a href="https://nextjs.org/">Next.js</a>, and this app uses the <a href="https://newsapi.org/">News API</a> to fetch news articles.
   
-- text
+- I'm a proud Dog Dad of <a href="https://www.instagram.com/cocodottie/">two rescue dogs</a>, and I applied a dog theme to the news site.
+
+- The "Our Team" page fetches from the <a href="https://my-json-server.typicode.com/">My Json Server API</a>, which creates a fake server from a JSON file.
   
-- text
+- **Note:** Although the News API fetch request has parameters for the keyword "dogs," some articles unrelated to dogs appear in the newsfeed.
 
 #
 
@@ -69,7 +71,7 @@ NEXT_PUBLIC_NEWS_KEY=<b>NEWS-API-KEY</b> (The API key should have no spaces or d
 #### 6. The API key variable is used in the fetch request located in /pages/feed/[slug].js:
 ```
 const apiResponse = await fetch(
-        `https://newsapi.org/v2/everything?q=dogs&pageSize=10&page=${pageNumber}`,
+        `https://newsapi.org/v2/everything?q=dogs&pageSize=9&page=${pageNumber}`,
         {
             headers: {
                 Authorization: `Bearer ${process.env.NEXT_PUBLIC_NEWS_KEY}`,
@@ -101,13 +103,21 @@ npm run dev
 
 <a href=#resources>![Resources](Assets/inter-resources.png)</a>  
 
+- #### [Unsplash](https://unsplash.com/)
+
 - #### [News API](https://newsapi.org/) 
+
+- #### [Cloudinary](https://cloudinary.com/)
+
+- #### [My JSON Server](https://my-json-server.typicode.com/)
 
 - #### [Next.js on Github](https://github.com/vercel/next.js/) 
 
 - #### [Learn about Next.js](https://nextjs.org/docs)  
 
 - #### [An Interactive Next.js Tutorial](https://nextjs.org/learn)  
+
+- #### [Coding A News App With Next.js](https://youtu.be/xtItzwYG6oQ) by [PortEXE](https://www.youtube.com/channel/UCjGQyJCSU_VVMTu5nigonqg)
 
 - #### [My blog on how I created my Github READMEs](https://emmanueljose.medium.com/readme-a-makeover-story-b9c7be37a6de?sk=7ae6623d365409d875753e4604e42ffd) 
 

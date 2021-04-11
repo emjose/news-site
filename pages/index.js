@@ -16,4 +16,4 @@ export default function Home() {
   );
 }
 
-// Emmanuel Jose logo and favicon. © Emmanuel Jose. All Rights Reserved.
+// Emmanuel Jose logo, favicon, Coco and Dottie images. © Emmanuel Jose. All Rights Reserved.

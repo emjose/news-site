@@ -82,6 +82,6 @@ export const getServerSideProps = async pageContext => {
 export default Feed;
 
 
-// Line 8: article.url prop opens in new browser tab with target=blank attribute 
+// Line 14: Window location article.url prop opens in new browser tab with target=blank attribute 
 
 // https://stackoverflow.com/questions/18476373/how-to-add-target-blank-to-javascript-window-location
