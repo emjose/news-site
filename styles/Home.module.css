@@ -6,11 +6,29 @@
   justify-content: center;
   background: url(https://images.unsplash.com/photo-1495020689067-958852a7765e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2100&q=80)
     no-repeat center center/cover;
-  filter: brightness(110%);
+  filter: brightness(112%);
 }
 
 .main h1 {
-  margin-top: -50px;
+  margin-top: -280px;
+  font-size: 6.5em;
+  color: rgb(0, 0, 0);
+  user-select: none;
+  letter-spacing: 3px;
+  font-family: "Alfa Slab One", cursive;
+  text-shadow: 
+
+  /*long soft bottom*/ 1px 10px 30px rgba(252, 206, 81, 0.4),
+    1px 10px 70px rgba(252, 206, 81, 0.4),
+    /*short soft bottom*/ 0px 5px 5px rgba(192, 192, 192, 0.4),
+    /*left shadow*/ -5px 5px 20px rgba(192, 192, 192, 0.4),
+    /*right shadow*/ 5px 5px 20px rgba(192, 192, 192, 0.4);
+}
+
+@media (max-width: 800px) {
+  .main h1 {
+    font-size: 4em;
+  }
 }
 
 /* The default next.js styling */

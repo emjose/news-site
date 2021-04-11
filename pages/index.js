@@ -10,8 +10,6 @@ export default function Home() {
 
       <div className={styles.main}>
         <h1>News Site</h1>
-
-        <h3>Your one stop show for the Latest News</h3>
       </div>
     </div>
 
