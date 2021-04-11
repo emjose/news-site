@@ -9,9 +9,9 @@ export const Feed = ({ pageNumber, articles }) => {
     return (
         <div className='page-container'>
             <Toolbar />
-            <div className={styles.main}>
+            <div className={styles.main} grid grid-cols-3 gap-4>
                 {articles.map((article, index) => (
-                    <div key={index} className={styles.post}>
+                    <div onClick={() => window.open(article.url,'_blank')} key={index} className={styles.post}>
                         {!!article.urlToImage && <img src={article.urlToImage} alt='news article image' />}
                         <h1 onClick={() => window.open(article.url,'_blank')}>{article.title}</h1>
                         <p>{article.description}</p>
@@ -33,11 +33,11 @@ export const Feed = ({ pageNumber, articles }) => {
 
                 <div 
                     onClick={() => {
-                        if (pageNumber < 5) {
+                        if (pageNumber < 10) {
                             router.push(`/feed/${pageNumber + 1}`).then(() => window.scrollTo(0, 0));
                         };
                     }}
-                    className={pageNumber === 5 ? styles.disabled : styles.active}>Next Page
+                    className={pageNumber === 10 ? styles.disabled : styles.active}>Next Page
                 </div>
 
             </div>
@@ -48,7 +48,7 @@ export const Feed = ({ pageNumber, articles }) => {
 export const getServerSideProps = async pageContext => {
     const pageNumber = pageContext.query.slug;
 
-    if (!pageNumber || pageNumber < 1 || pageNumber > 5) {
+    if (!pageNumber || pageNumber < 1 || pageNumber > 10) {
         return {
             props: {
                 articles: [],
@@ -58,7 +58,7 @@ export const getServerSideProps = async pageContext => {
     }
 
     const apiResponse = await fetch(
-        `https://newsapi.org/v2/everything?q=dogs&pageSize=6&page=${pageNumber}`,
+        `https://newsapi.org/v2/everything?q=dogs&pageSize=10&page=${pageNumber}`,
         {
             headers: {
                 Authorization: `Bearer ${process.env.NEXT_PUBLIC_NEWS_KEY}`,
