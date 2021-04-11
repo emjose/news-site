@@ -24,9 +24,12 @@ font-family: 'Ultra', serif; */
 }
 
 .post {
-  width: 500px;
+  width: 600px;
   margin-bottom: 25px;
-  padding-bottom: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   border-bottom: 1px solid black;
 
   border: 1px solid lightgray;
@@ -43,6 +46,13 @@ font-family: 'Ultra', serif; */
   cursor: pointer;
   text-align: center;
 }
+
+/* .post description {
+  padding-top: 10px;
+  line-height: 25px;
+  font-size: 14px;
+  padding-bottom: 10px;
+} */
 
 .paginator {
   width: 100%;
