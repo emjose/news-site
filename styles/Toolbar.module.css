@@ -20,16 +20,34 @@
   color: #fad60b;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 860px) {
   .main div {
     padding-top: 20px;
     margin: 10px;
-    font-size: 1.5em;
+    font-size: 2em;
+  }
+}
+
+@media (max-width: 575px) {
+  .main div {
+    font-size: 1.8em;
+  }
+}
+
+@media (max-width: 520px) {
+  .main div {
+    font-size: 1.6em;
   }
 }
 
 @media (max-width: 480px) {
   .main div {
     font-size: 1em;
+  }
+}
+
+@media (max-width: 350px) {
+  .main div {
+    font-size: 0.9em;
   }
 }

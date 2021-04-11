@@ -13,7 +13,7 @@ export const Feed = ({ pageNumber, articles }) => {
                 {articles.map((article, index) => (
                     <div onClick={() => window.open(article.url,'_blank')} key={index} className={styles.post}>
                         {!!article.urlToImage && <img src={article.urlToImage} alt='news article image' />}
-                        <h1 onClick={() => window.open(article.url,'_blank')}>{article.title}</h1>
+                        <h1>{article.title}</h1>
                         <p>{article.description}</p>
                     </div>
                 ))}
@@ -26,7 +26,7 @@ export const Feed = ({ pageNumber, articles }) => {
                             router.push(`/feed/${pageNumber - 1}`).then(() => window.scrollTo(0, 0));
                         };
                     }}
-                    className={pageNumber === 1 ? styles.disabled : styles.active}>Previous Page
+                    className={pageNumber === 1 ? styles.disabled : styles.active}>Previous
                 </div>
 
                 <div>Page {pageNumber}</div>
@@ -37,7 +37,7 @@ export const Feed = ({ pageNumber, articles }) => {
                             router.push(`/feed/${pageNumber + 1}`).then(() => window.scrollTo(0, 0));
                         };
                     }}
-                    className={pageNumber === 10 ? styles.disabled : styles.active}>Next Page
+                    className={pageNumber === 10 ? styles.disabled : styles.active}>Next
                 </div>
 
             </div>
