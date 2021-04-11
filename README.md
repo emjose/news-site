@@ -58,7 +58,7 @@ git clone git@github.com:emjose/news-site.git && cd news-site
 ```
 .env
 ```
-#### In the .env file, a variable needs to be created to store the API key. Paste this line:
+#### In the .env file, create an environment variable to store the API key. Paste this line:
 ```
 NEXT_PUBLIC_NEWS_KEY=
 ```
@@ -69,7 +69,7 @@ NEXT_PUBLIC_NEWS_KEY=<b>NEWS-API-KEY</b> (The API key should have no spaces or d
 #### The API key variable is used in the fetch request located in /pages/feed/[slug].js
 ```
 const apiResponse = await fetch(
-        `https://newsapi.org/v2/top-headlines?country=us&pageSize=5&page=${pageNumber}`,
+        `https://newsapi.org/v2/everything?q=dogs&pageSize=10&page=${pageNumber}`,
         {
             headers: {
                 Authorization: `Bearer ${process.env.NEXT_PUBLIC_NEWS_KEY}`,
