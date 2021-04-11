@@ -1,8 +1,8 @@
 {
-  "dogDad": {
-    "name": "Emmanuel Jose",
-    "position": "Software Engineer",
-    "image": "https://pbs.twimg.com/profile_images/1356709086507786241/_wtvRIxA_400x400.jpg",
-    "description": "Developer and Artist"
+  "teamMembers": {
+    "name": "Coco and Dottie",
+    "position": "The H.Bs.I.C.",
+    "image": "https://res.cloudinary.com/dn1e07eul/image/upload/v1618168529/100%20Days%20Of%20Code/CocoDottie_copy_q1zaq0.jpg",
+    "description": "Check out our Dad!"
   }
 }

@@ -1,0 +1,52 @@
+.main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  margin-top: 50px;
+}
+
+.main h1 {
+  font-size: 3.75em;
+  margin-top: 5px;
+  font-weight: 400;
+  color: #026d97;
+  font-family: "Alfa Slab One", cursive;
+}
+
+.main h3 {
+  font-size: 2.2em;
+  margin-top: -20px;
+  font-weight: 700;
+  color: rgb(54, 54, 54);
+  font-family: "BlinkMacSystemFont", sans-serif;
+}
+
+.main h6 {
+  font-size: 1.9em;
+  margin-top: -15px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #5b9ac2;
+  font-family: "BlinkMacSystemFont", sans-serif;
+}
+
+.main p {
+  font-size: 1.85em;
+  margin-top: 25px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #5b9ac2;
+  font-family: "BlinkMacSystemFont", sans-serif;
+}
+
+.teamMembers {
+  text-align: center;
+}
+
+.teamMembers img {
+  width: 350px;
+  border-radius: 100%;
+  box-shadow: 4px 6px 19px #77959e;
+}
