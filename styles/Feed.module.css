@@ -63,6 +63,10 @@ font-family: 'Ultra', serif; */
   width: 100%;
   display: flex;
   justify-content: center;
+  font-size: 1.25em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
 }
 
 .paginator div {
@@ -73,7 +77,11 @@ font-family: 'Ultra', serif; */
   cursor: pointer;
 }
 
+.paginator .active:hover {
+  color: red;
+}
+
 .paginator .disabled {
   cursor: not-allowed;
-  color: rgb(179, 179, 179);
+  color: rgb(146, 146, 146);
 }
