@@ -34,6 +34,12 @@ font-family: 'Ultra', serif; */
   .main div {
     padding-top: 20px;
     margin: 10px;
-    font-size: 1.25em;
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 480px) {
+  .main div {
+    font-size: 1em;
   }
 }
