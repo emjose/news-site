@@ -15,7 +15,6 @@ export const team = ({ team }) => {
                     <a href="https://www.instagram.com/cocodottie/" target="_blank"><h6>{team.position}</h6></a>
                     <a href="https://www.instagram.com/cocodottie/" target="_blank"><img src={team.image} alt="Coco and Dottie"/></a>
                     <a href="https://github.com/emjose" target="_blank"><p>{team.description}</p></a>
-
                 </div>
             </div>
         </div>
