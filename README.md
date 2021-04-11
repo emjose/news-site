@@ -45,28 +45,28 @@
 
 <a href=#installation>![Installation](Assets/inter-installation.png)</a>
 
-#### PREREQUISITE: This app requires an API key from [News API](https://newsapi.org/)
+#### 1. PREREQUISITE: This app requires an API key from [News API](https://newsapi.org/)
 - Log in or register at [News API](https://newsapi.org/).
 - Once logged in, press the "Get API Key" button.
 - The generated API key will be alphanumeric and 32 characters long.
 - Keep the browser tab with your News API key open for reference.
-#### Git clone and cd into the repo folder:
+#### 2. Git clone and cd into the repo folder:
 ``` 
 git clone git@github.com:emjose/news-site.git && cd news-site 
 ```
-#### In the main root directory of the project files, create a new environment file called:
+#### 3. In the main root directory of the project files, create a new environment file called:
 ```
 .env
 ```
-#### In the .env file, create an environment variable to store the API key. Paste this line:
+#### 4. In the .env file, create an environment variable to store the API key. Paste this line:
 ```
 NEXT_PUBLIC_NEWS_KEY=
 ```
-#### Paste your [News API](https://newsapi.org/) key after the equal sign character:
+#### 5. Paste your [News API](https://newsapi.org/) key after the equal sign character:
 <pre>
 NEXT_PUBLIC_NEWS_KEY=<b>NEWS-API-KEY</b> (The API key should have no spaces or dashes)
 </pre>
-#### The API key variable is used in the fetch request located in /pages/feed/[slug].js
+#### 6. The API key variable is used in the fetch request located in /pages/feed/[slug].js
 ```
 const apiResponse = await fetch(
         `https://newsapi.org/v2/everything?q=dogs&pageSize=10&page=${pageNumber}`,
@@ -77,15 +77,15 @@ const apiResponse = await fetch(
         },
     );
 ```
-#### Back in the terminal, install dependencies:
+#### 7. Back in the terminal, install dependencies:
 ```
 npm install
 ```
-#### Run the development server:
+#### 8. Run the development server:
 ```
 npm run dev
 ```
-#### Open [http://localhost:3000](http://localhost:3000) with your browser to launch the News Site app.
+#### 9. Open [http://localhost:3000](http://localhost:3000) with your browser to launch the News Site app.
 
 #
 
