@@ -8,13 +8,13 @@ export const dogDad = ({ dad }) => {
         <Toolbar/>
         
             <div className={styles.main}>
-                <a href="https://github.com/emjose"><h1>Dog Dad</h1></a>
+                <a href="https://github.com/emjose" target="_blank"><h1>Dog Dad</h1></a>
 
                 <div className={styles.dogDad}>
-                    <a href="https://github.com/emjose"><h3>{dad.name}</h3></a>
-                    <a href="https://github.com/emjose"><h6>{dad.position}</h6></a>
-                    <a href="https://github.com/emjose"><img src={dad.image} alt="Dog Dad"/></a>
-                    <a href="https://github.com/emjose"><p>{dad.description}</p></a>
+                    <a href="https://github.com/emjose" target="_blank"><h3>{dad.name}</h3></a>
+                    <a href="https://github.com/emjose" target="_blank"><h6>{dad.position}</h6></a>
+                    <a href="https://github.com/emjose" target="_blank"><img src={dad.image} alt="Dog Dad"/></a>
+                    <a href="https://github.com/emjose" target="_blank"><p>{dad.description}</p></a>
 
                 </div>
             </div>
