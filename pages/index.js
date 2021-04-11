@@ -9,7 +9,7 @@ export default function Home() {
     <Toolbar/>
 
       <div className={styles.main}>
-        <h1>Dog Gone News</h1>
+        <h1>Dog Day News</h1>
       </div>
     </div>
 
