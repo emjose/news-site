@@ -42,7 +42,9 @@ font-family: 'Ultra', serif; */
   border-radius: 5px;
   background-color: white;
   line-height: 1.5;
-  box-shadow: 4px 4px 16px #85abcf;
+  box-shadow: 4px 4px 16px #92b7c2;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .post {
@@ -58,10 +60,15 @@ font-family: 'Ultra', serif; */
 }
 
 .post h1 {
-  font-size: 1.25em;
+  font-size: 1.15em;
+  color: #083357;
+  /* text-transform: uppercase; */
+  text-align: justify;
+  text-justify: inter-word;
   cursor: pointer;
   text-align: center;
-  font-family: "-apple-system", sans-serif;
+  letter-spacing: 0.5px;
+  font-family: "Helvetica Neue", sans-serif;
 }
 
 .paginator {
@@ -73,6 +80,7 @@ font-family: 'Ultra', serif; */
   text-transform: uppercase;
   letter-spacing: 0.75px;
   font-family: "Lalezar", cursive;
+  color: #30768b;
 }
 
 .paginator div {
@@ -91,5 +99,5 @@ font-family: 'Ultra', serif; */
 
 .paginator .disabled {
   cursor: not-allowed;
-  color: rgb(146, 146, 146);
+  color: #a2c9d4;
 }

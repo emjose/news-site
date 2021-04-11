@@ -11,7 +11,7 @@
   font-size: 3.75em;
   margin-top: 5px;
   font-weight: 400;
-  color: rgb(0, 65, 150);
+  color: #026d97;
   font-family: "Alfa Slab One", cursive;
 }
 
@@ -28,7 +28,7 @@
   margin-top: -15px;
   font-weight: 700;
   margin-bottom: 20px;
-  color: rgb(127, 155, 194);
+  color: #5b9ac2;
   font-family: "BlinkMacSystemFont", sans-serif;
 }
 
@@ -37,7 +37,7 @@
   margin-top: 25px;
   font-weight: 700;
   margin-bottom: 20px;
-  color: rgb(127, 155, 194);
+  color: #5b9ac2;
   font-family: "BlinkMacSystemFont", sans-serif;
 }
 
@@ -48,5 +48,5 @@
 .dogDad img {
   width: 350px;
   border-radius: 100%;
-  box-shadow: 4px 6px 19px #777777;
+  box-shadow: 4px 6px 19px #77959e;
 }
