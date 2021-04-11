@@ -45,7 +45,7 @@
 
 <a href=#installation>![Installation](Assets/inter-installation.png)</a>
 
-#### 1. PREREQUISITE: This app requires an API key from [News API](https://newsapi.org/)
+#### 1. PREREQUISITE: This app requires an API key from [News API](https://newsapi.org/).
 - Log in or register at [News API](https://newsapi.org/).
 - Once logged in, press the "Get API Key" button.
 - The generated API key will be alphanumeric and 32 characters long.
@@ -66,7 +66,7 @@ NEXT_PUBLIC_NEWS_KEY=
 <pre>
 NEXT_PUBLIC_NEWS_KEY=<b>NEWS-API-KEY</b> (The API key should have no spaces or dashes)
 </pre>
-#### 6. The API key variable is used in the fetch request located in /pages/feed/[slug].js
+#### 6. The API key variable is used in the fetch request located in /pages/feed/[slug].js:
 ```
 const apiResponse = await fetch(
         `https://newsapi.org/v2/everything?q=dogs&pageSize=10&page=${pageNumber}`,
