@@ -12,7 +12,7 @@
 
 <br>
 
-<a href="vercel URL/">![News Site](Assets/preview-027-news-site.png)</a> 
+<a href="https://news-site-emjose.vercel.app/">![News Site](Assets/preview-027-news-site.png)</a> 
 
 #
 
@@ -93,9 +93,9 @@ npm run dev
 
 <p id="live-site"><p>
 
-<a href="vercel url">![Live Site](Assets/inter-live-site.png)</a>
+<a href="https://news-site-emjose.vercel.app/">![Live Site](Assets/inter-live-site.png)</a>
 
-<a href="vercel url">![Live Site](Assets/027-news-site.gif)</a>
+<a href="https://news-site-emjose.vercel.app/">![Live Site](Assets/027-news-site.gif)</a>
 
 #
 
