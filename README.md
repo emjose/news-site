@@ -1,4 +1,4 @@
-<p id="header"><p>
+<!-- <p id="header"><p>
 
 <table><tr>
 <td> <a href="https://github.com/emjose/model-minority-myth/#header"><img src="Assets/header-left.png" alt="previous" style="width: 200px;"/></a> </td>
@@ -131,7 +131,7 @@ npm run dev
 
 #
 
-<a href=#header>![Back to Top](Assets/inter-congrats.png)</a> 
+<a href=#header>![Back to Top](Assets/inter-congrats.png)</a>  -->
 
 <!-- #
 
