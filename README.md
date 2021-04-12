@@ -1,4 +1,4 @@
-<!-- <p id="header"><p>
+<p id="header"><p>
 
 <table><tr>
 <td> <a href="https://github.com/emjose/model-minority-myth/#header"><img src="Assets/header-left.png" alt="previous" style="width: 200px;"/></a> </td>
@@ -37,7 +37,7 @@
   
 - I'm a proud Dog Dad of <a href="https://www.instagram.com/cocodottie/">two rescue dogs</a>, and I applied a dog theme to the news site.
 
-- The "Our Team" page fetches from the <a href="https://my-json-server.typicode.com/">My Json Server API</a>, which creates a fake server from a JSON file.
+- Thank you to <a href="https://github.com/portexe">Zack Wilson / PortEXE</a> for his excellent <a href="https://youtu.be/xtItzwYG6oQ">Next.js + NewsAPI tutorial on YouTube!</a>
   
 - **Note:** Although the News API fetch request has parameters for the keyword "dogs," some articles unrelated to dogs appear in the newsfeed.
 
@@ -95,7 +95,12 @@ npm run dev
 
 <a href="https://news-site-emjose.vercel.app/">![Live Site](Assets/inter-live-site.png)</a>
 
-<a href="https://news-site-emjose.vercel.app/">![Live Site](Assets/027-news-site.gif)</a>
+<a href="https://news-site-emjose.vercel.app/">![Live Site](Assets/027-news-site-1.gif)</a>
+Users can browse the newsfeed and app pages.
+<br>
+<br>
+<a href="https://news-site-emjose.vercel.app/">![Live Site](Assets/027-news-site-2.gif)</a>
+Users can navigate newsfeed pages.
 
 #
 
@@ -117,7 +122,7 @@ npm run dev
 
 - #### [An Interactive Next.js Tutorial](https://nextjs.org/learn)  
 
-- #### [Coding A News App With Next.js](https://youtu.be/xtItzwYG6oQ) by [PortEXE](https://www.youtube.com/channel/UCjGQyJCSU_VVMTu5nigonqg)
+- #### [Coding A News App With Next.js](https://youtu.be/xtItzwYG6oQ) by [Zack Wilson / PortEXE](https://www.youtube.com/channel/UCjGQyJCSU_VVMTu5nigonqg)
 
 - #### [My blog on how I created my Github READMEs](https://emmanueljose.medium.com/readme-a-makeover-story-b9c7be37a6de?sk=7ae6623d365409d875753e4604e42ffd) 
 
@@ -131,7 +136,9 @@ npm run dev
 
 #
 
-<a href=#header>![Back to Top](Assets/inter-congrats.png)</a>  -->
+<a href=#header>![Back to Top](Assets/inter-congrats.png)</a> 
+
+
 
 <!-- #
 
