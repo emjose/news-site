@@ -6,6 +6,8 @@
 <td> <a href="https://github.com/emjose/crypto-tracker/#header"><img src="Assets/header-right.png" alt="next" style="width: 200px;"/></a> </td>
 </tr></table>
 
+<br>
+
 <p id="project-title"><p>
 
 <a href=#table-of-contents>![News Site](Assets/inter-027-news-site.png)</a> 
