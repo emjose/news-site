@@ -59,7 +59,7 @@ export const getServerSideProps = async pageContext => {
     }
 
     const apiResponse = await fetch(
-        `https://newsapi.org/v2/everything?q=dogs&q=adopt&pageSize=9&sortBy=publishedAt&page=${pageNumber}`,
+        `https://newsapi.org/v2/everything?q=dogs&q=-dies&excludeDomains=freerepublic.com,ctvnews.ca,globalnews.ca&pageSize=9&sortBy=relevancy&page=${pageNumber}`,
         {
             headers: {
                 Authorization: `Bearer ${process.env.NEXT_PUBLIC_NEWS_KEY}`,
