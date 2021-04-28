@@ -15,6 +15,7 @@ export const Feed = ({ pageNumber, articles }) => {
                         {!!article.urlToImage && <img src={article.urlToImage} alt='news article image' />}
                         <h1>{article.title}</h1>
                         <p>{article.description}</p>
+                        <h3> <span>Read more</span></h3>
                     </div>
                 ))}
             </div>
@@ -58,7 +59,7 @@ export const getServerSideProps = async pageContext => {
     }
 
     const apiResponse = await fetch(
-        `https://newsapi.org/v2/everything?q=dogs&pageSize=9&page=${pageNumber}`,
+        `https://newsapi.org/v2/everything?q=dogs&q=adopt&pageSize=9&sortBy=publishedAt&page=${pageNumber}`,
         {
             headers: {
                 Authorization: `Bearer ${process.env.NEXT_PUBLIC_NEWS_KEY}`,

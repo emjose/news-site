@@ -16,49 +16,94 @@ font-family: 'Ultra', serif; */
   margin: 60px auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 40px;
+  grid-gap: 50px;
 }
 
 .post {
   width: 400px;
-  height: auto;
+  /* height: 410px; */
+  height: 555px;
   margin-bottom: 5px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  border-bottom: 1px solid black;
   cursor: pointer;
   border: 1px solid lightgray;
   border-radius: 5px;
   background-color: white;
   line-height: 1.5;
   box-shadow: 4px 4px 16px #92b7c2;
-  text-align: justify;
-  text-justify: inter-word;
+  text-align: left;
+  /* overflow: hidden; */
 }
 
 .post {
-  transition: all 0.2s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 .post:hover {
   transform: scale(1.03);
+  /* height: 555px; */
 }
 
 .post img {
   width: 100%;
+
+  min-height: 300px;
+  max-height: 300px;
+  object-fit: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 .post h1 {
   font-size: 1.15em;
   color: #083357;
-  text-align: justify;
-  text-justify: inter-word;
+  text-align: left;
   cursor: pointer;
   text-align: center;
   letter-spacing: 0.5px;
   font-family: "Helvetica Neue", sans-serif;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 80px;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.post p {
+  color: rgb(109, 109, 109);
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 1em;
+  line-height: 1.45;
+  margin-top: 15px;
+  height: 70px;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+/* .post p:hover {
+  opacity: 1;
+  -webkit-transition: opacity 0.25s ease-in-out 0s;
+  transition: opacity 0.25s ease-in-out 0s;
+} */
+
+.post span {
+  color: #0faddd;
+  font-weight: 600;
+  padding-left: 15px;
+  padding-right: 25px;
+  float: right;
+}
+
+.post span:hover {
+  color: red;
 }
 
 .paginator {
