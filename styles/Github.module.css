@@ -1,0 +1,85 @@
+.svg {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 90px;
+	height: 90px;
+}
+
+.arm {
+	transform-origin: 130px 106px;
+}
+
+.arm,
+.octoBody {
+	fill: #fff;
+}
+
+.ribbonBackground {
+	fill: #ff9f2c;
+}
+
+.svg:hover .arm {
+	animation: wave 560ms ease-in-out;
+}
+
+@keyframes wave {
+	0%,
+	100% {
+		transform: rotate(0);
+	}
+	20%,
+	60% {
+		transform: rotate(-25deg);
+	}
+	40%,
+	80% {
+		transform: rotate(10deg);
+	}
+}
+
+@media (max-width: 500px) {
+	.svg:hover .arm {
+		animation: none;
+	}
+
+	.svg:hover .arm {
+		animation: wave 560ms ease-in-out;
+	}
+}
+
+@media (max-width: 860px) {
+	.svg {
+		height: 85px;
+		width: 85px;
+	}
+}
+
+@media (max-width: 575px) {
+	.svg {
+		height: 80px;
+		width: 80px;
+	}
+}
+
+@media (max-width: 520px) {
+	.svg {
+		height: 76px;
+		width: 76px;
+	}
+}
+
+@media (max-width: 480px) {
+	.svg {
+		height: 62px;
+		width: 62px;
+	}
+}
+
+@media (max-width: 350px) {
+	.svg {
+		height: 60px;
+		width: 60px;
+	}
+}

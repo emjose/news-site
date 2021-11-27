@@ -1,17 +1,19 @@
-import { useRouter } from 'next/router';
-import styles from '../styles/Toolbar.module.css';
+import { useRouter } from "next/router";
+import styles from "../styles/Toolbar.module.css";
+import { Github } from "./github";
 
 export const Toolbar = () => {
-    const router = useRouter();
+	const router = useRouter();
 
-    return(
-        <div className={styles.main}>
-            <div onClick={() => router.push('/')}>Home</div>
-            <div onClick={() => router.push('/feed/1')}>Feed</div>
-            <div onClick={() => router.push('/team')}>Our Team</div>
-            <div onClick={() => window.open('https://twitter.com/Emmanuel_Labor','_blank')}>Twitter</div>
-        </div>
-    )
+	return (
+		<div className={styles.main}>
+			<div onClick={() => router.push("/")}>Home</div>
+			<div onClick={() => router.push("/feed/1")}>Feed</div>
+			<div onClick={() => router.push("/team")}>Our Team</div>
+			<div onClick={() => window.open("https://twitter.com/Emmanuel_Labor", "_blank")}>Twitter</div>
+			<Github />
+		</div>
+	);
 };
 
 // setting target blank to a JavaScript window location (change window.location to window.open with parameters of URL and target)

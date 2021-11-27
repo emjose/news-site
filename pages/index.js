@@ -1,19 +1,19 @@
 // import Head from 'next/head'
-import { Toolbar } from '../components/toolbar'
-import styles from '../styles/Home.module.css'
+import { Toolbar } from "../components/toolbar";
+import styles from "../styles/Home.module.css";
 
 export default function Home() {
-  return (
-    <div className='page-container'>
+	return (
+		<div className="page-container">
+			<Toolbar />
 
-    <Toolbar/>
-
-      <div className={styles.main}>
-        <a href="/feed/1"><h1>Dog Day News</h1></a>
-      </div>
-    </div>
-
-  );
+			<div className={styles.main}>
+				<a href="/feed/1">
+					<h1>Dog Day News</h1>
+				</a>
+			</div>
+		</div>
+	);
 }
 
 // Emmanuel Jose logo, favicon, Coco and Dottie images. © Emmanuel Jose. All Rights Reserved.
