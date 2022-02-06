@@ -15,8 +15,9 @@
 	color: #fff;
 	letter-spacing: 3px;
 	white-space: nowrap;
-	font-weight: 400;
+	font-weight: 300;
 	font-family: "Alfa Slab One", cursive;
+	/* font-family: "Roboto Slab", serif; */
 }
 
 .main h1:hover {
