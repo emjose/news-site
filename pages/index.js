@@ -1,10 +1,27 @@
-// import Head from 'next/head'
+import Head from "next/head";
 import { Toolbar } from "../components/toolbar";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
 	return (
 		<div className="page-container">
+			<Head>
+				<meta charset="UTF-8" />
+				<title>Dog Day News</title>
+				<meta property="og:title" content="Dog Day News" />
+				<meta property="og:image" content="Assets/meta-027-news.png" />
+				<meta
+					property="og:image:alt"
+					content="The words 'Dog Day News' in front of a French bulldog. Click to visit website."
+				/>
+				<meta property="og:description" content="Project by Emmanuel Jose" />
+				<meta property="og:url" content="https://news-site-emjose.vercel.app/" />
+				<meta property="og:type" content="website" />
+				<meta name="twitter:card" content="summary" />
+				<meta name="keywords" content="HTML, CSS, JavaScript, Next.js, news, dogs, dog, newsapi" />
+				<meta name="author" content="Emmanuel Jose" />
+				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+			</Head>
 			<Toolbar />
 
 			<div className={styles.main}>
