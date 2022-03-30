@@ -9,7 +9,7 @@ export default function Home() {
 				<meta charset="UTF-8" />
 				<title>Dog Day News</title>
 				<meta property="og:title" content="Dog Day News" />
-				<meta property="og:image" content="/meta-027-news.png" />
+				<meta property="og:image" content="https://news-site-emjose.vercel.app/meta-027-news.png" />
 				<meta
 					property="og:image:alt"
 					content="The words 'Dog Day News' in front of a French bulldog. Click to visit website."
