@@ -48,38 +48,38 @@
 
 <a href=#installation>![Installation](https://res.cloudinary.com/dn1e07eul/image/upload/v1659389842/Readme%20Headers/inter-installation_j9ixlq.png)</a>
 
-#### 1. PREREQUISITE: This app requires an API key from [News API](https://newsapi.org/).
+-   **PREREQUISITE:** This app requires an API key from **[News API](https://newsapi.org/)**.
 
--   Log in or register at [News API](https://newsapi.org/).
--   Once logged in, press the "Get API Key" button.
--   The generated API key will be alphanumeric and 32 characters long.
--   Keep the browser tab with your News API key open for reference.
+    -   Log in or register at [News API](https://newsapi.org/).
+    -   Once logged in, press the "Get API Key" button.
+    -   The generated API key will be alphanumeric and 32 characters long.
+    -   Keep the browser tab with your News API key open for reference.
 
-#### 2. Git clone and cd into the repo folder:
+-   **Git clone and cd into the repo folder:**
 
 ```console
 git clone git@github.com:emjose/news-site.git && cd news-site
 ```
 
-#### 3. In the main root directory of the project files, create an `.env` file:
+-   **In the main root directory of the project files, create an `.env` file:**
 
 ```console
 .env
 ```
 
-#### 4. In the `.env` file, create an environment variable to store the API key. Paste this line:
+-   **In the `.env` file, create an environment variable to store the API key. Paste this line:**
 
 ```properties
 NEXT_PUBLIC_NEWS_KEY=
 ```
 
-#### 5. Paste your [News API](https://newsapi.org/) key after the equal sign character:
+-   **Paste your [News API](https://newsapi.org/) key after the equal sign character:**
 
 ```properties
 NEXT_PUBLIC_NEWS_KEY=<your-news-api-key>
 ```
 
-#### 6. The API key variable is used in the fetch request located in /pages/feed/[slug].js:
+-   **The API key variable is used in the fetch request located in `/pages/feed/[slug].js`:**
 
 ```jsx
 const apiResponse = await fetch(`https://newsapi.org/v2/everything?q=dogs&pageSize=9&page=${pageNumber}`, {
@@ -89,19 +89,19 @@ const apiResponse = await fetch(`https://newsapi.org/v2/everything?q=dogs&pageSi
 });
 ```
 
-#### 7. Back in the terminal, install dependencies:
+-   **Back in the terminal, install dependencies:**
 
 ```console
 npm install
 ```
 
-#### 8. Run the development server:
+-   **Run the development server:**
 
 ```console
 npm run dev
 ```
 
-#### 9. Open [http://localhost:3000](http://localhost:3000) with your browser to launch the News Site app.
+-   Open [http://localhost:3000](http://localhost:3000) with your browser to launch the News Site app.
 
 #
 
@@ -118,6 +118,7 @@ Users can browse the newsfeed and app pages.
 <br>
 
 <a href="https://news-site-emjose.vercel.app/">![Live Site](Assets/027-news-site-2.gif)</a>
+
 Users can navigate newsfeed pages.
 
 #
