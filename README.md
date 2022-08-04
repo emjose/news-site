@@ -50,10 +50,12 @@
 
 -   **PREREQUISITE:** This app requires an API key from **[News API](https://newsapi.org/)**.
 
-    -   Log in or register at [News API](https://newsapi.org/).
-    -   Once logged in, press the "Get API Key" button.
-    -   The generated API key will be alphanumeric and 32 characters long.
-    -   Keep the browser tab with your News API key open for reference.
+        -   Log in or register at [News API](https://newsapi.org/).
+        -   Once logged in, press the "Get API Key" button.
+        -   The generated API key will be alphanumeric and 32 characters long.
+        -   Keep the browser tab with your News API key open for reference.
+
+    <br>
 
 -   **Git clone and cd into the repo folder:**
 
@@ -61,11 +63,15 @@
 git clone git@github.com:emjose/news-site.git && cd news-site
 ```
 
+<br>
+
 -   **In the main root directory of the project files, create an `.env` file:**
 
 ```console
 .env
 ```
+
+<br>
 
 -   **In the `.env` file, create an environment variable to store the API key. Paste this line:**
 
@@ -73,11 +79,15 @@ git clone git@github.com:emjose/news-site.git && cd news-site
 NEXT_PUBLIC_NEWS_KEY=
 ```
 
+<br>
+
 -   **Paste your [News API](https://newsapi.org/) key after the equal sign character:**
 
 ```properties
 NEXT_PUBLIC_NEWS_KEY=<your-news-api-key>
 ```
+
+<br>
 
 -   **The API key variable is used in the fetch request located in `/pages/feed/[slug].js`:**
 
@@ -89,17 +99,23 @@ const apiResponse = await fetch(`https://newsapi.org/v2/everything?q=dogs&pageSi
 });
 ```
 
+<br>
+
 -   **Back in the terminal, install dependencies:**
 
 ```console
 npm install
 ```
 
+<br>
+
 -   **Run the development server:**
 
 ```console
 npm run dev
 ```
+
+<br>
 
 -   Open [http://localhost:3000](http://localhost:3000) with your browser to launch the News Site app.
 
