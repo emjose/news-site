@@ -50,10 +50,10 @@
 
 -   **PREREQUISITE:** This app requires an API key from **[News API](https://newsapi.org/)**.
 
-        -   Log in or register at [News API](https://newsapi.org/).
-        -   Once logged in, press the "Get API Key" button.
-        -   The generated API key will be alphanumeric and 32 characters long.
-        -   Keep the browser tab with your News API key open for reference.
+    -   Log in or register at [News API](https://newsapi.org/).
+    -   Once logged in, press the "Get API Key" button.
+    -   The generated API key will be alphanumeric and 32 characters long.
+    -   Keep the browser tab with your News API key open for reference.
 
     <br>
 
