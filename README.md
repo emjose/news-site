@@ -57,17 +57,17 @@
 
 #### 2. Git clone and cd into the repo folder:
 
-```
+```console
 git clone git@github.com:emjose/news-site.git && cd news-site
 ```
 
-#### 3. In the main root directory of the project files, create a new environment file called:
+#### 3. In the main root directory of the project files, create an `.env` file:
 
-```
+```console
 .env
 ```
 
-#### 4. In the .env file, create an environment variable to store the API key. Paste this line:
+#### 4. In the `.env` file, create an environment variable to store the API key. Paste this line:
 
 ```properties
 NEXT_PUBLIC_NEWS_KEY=
@@ -91,13 +91,13 @@ const apiResponse = await fetch(`https://newsapi.org/v2/everything?q=dogs&pageSi
 
 #### 7. Back in the terminal, install dependencies:
 
-```
+```console
 npm install
 ```
 
 #### 8. Run the development server:
 
-```
+```console
 npm run dev
 ```
 
@@ -110,9 +110,13 @@ npm run dev
 <a href="https://news-site-emjose.vercel.app/">![Live Site](https://res.cloudinary.com/dn1e07eul/image/upload/v1659389947/Readme%20Headers/inter-live-site_ngkqcf.png)</a>
 
 <a href="https://news-site-emjose.vercel.app/">![Live Site](Assets/027-news-site-1.gif)</a>
+
 Users can browse the newsfeed and app pages.
+
+#
+
 <br>
-<br>
+
 <a href="https://news-site-emjose.vercel.app/">![Live Site](Assets/027-news-site-2.gif)</a>
 Users can navigate newsfeed pages.
 
