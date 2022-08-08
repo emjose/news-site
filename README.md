@@ -48,7 +48,7 @@
 
 <a href=#installation>![Installation](https://res.cloudinary.com/dn1e07eul/image/upload/v1659389842/Readme%20Headers/inter-installation_j9ixlq.png)</a>
 
--   **PREREQUISITE:** This app requires an API key from **[News API](https://newsapi.org/)**.
+#### 1 **PREREQUISITE:** This app requires an API key from \*\*[News API](https://newsapi.org/).
 
     -   Log in or register at [News API](https://newsapi.org/).
     -   Once logged in, press the "Get API Key" button.
@@ -57,7 +57,7 @@
 
     <br>
 
--   **Git clone and cd into the repo folder:**
+#### 2. Git clone and cd into the repo folder:
 
 ```console
 git clone git@github.com:emjose/news-site.git && cd news-site
@@ -65,7 +65,7 @@ git clone git@github.com:emjose/news-site.git && cd news-site
 
 <br>
 
--   **In the main root directory of the project files, create an `.env` file:**
+#### 3. In the main root directory of the project files, create an `.env` file:
 
 ```console
 .env
@@ -73,7 +73,7 @@ git clone git@github.com:emjose/news-site.git && cd news-site
 
 <br>
 
--   **In the `.env` file, create an environment variable to store the API key. Paste this line:**
+#### 4. In the `.env` file, create an environment variable to store the API key. Paste this line:
 
 ```properties
 NEXT_PUBLIC_NEWS_KEY=
@@ -81,15 +81,15 @@ NEXT_PUBLIC_NEWS_KEY=
 
 <br>
 
--   **Paste your [News API](https://newsapi.org/) key after the equal sign character:**
+#### 5. Paste your [News API](https://newsapi.org/) key after the equal sign character:
 
 ```properties
-NEXT_PUBLIC_NEWS_KEY=<your-news-api-key>
+NEXT_PUBLIC_NEWS_KEY=your-news-api-key
 ```
 
 <br>
 
--   **The API key variable is used in the fetch request located in `/pages/feed/[slug].js`:**
+#### 6. The API key variable is used in the fetch request located in `/pages/feed/[slug].js`:
 
 ```jsx
 const apiResponse = await fetch(`https://newsapi.org/v2/everything?q=dogs&pageSize=9&page=${pageNumber}`, {
@@ -101,7 +101,7 @@ const apiResponse = await fetch(`https://newsapi.org/v2/everything?q=dogs&pageSi
 
 <br>
 
--   **Back in the terminal, install dependencies:**
+#### 7. Back in the terminal, install dependencies:
 
 ```console
 npm install
@@ -109,7 +109,7 @@ npm install
 
 <br>
 
--   **Run the development server:**
+#### 8. Run the development server:
 
 ```console
 npm run dev
@@ -117,7 +117,7 @@ npm run dev
 
 <br>
 
--   Open [http://localhost:3000](http://localhost:3000) with your browser to launch the News Site app.
+#### 9. Open [http://localhost:3000](http://localhost:3000) with your browser to launch the News Site app.
 
 #
 
