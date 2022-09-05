@@ -7,10 +7,18 @@ export const Toolbar = () => {
 
 	return (
 		<div className={styles.main}>
-			<div onClick={() => router.push("/")}>Home</div>
-			<div onClick={() => router.push("/feed/1")}>Feed</div>
-			<div onClick={() => router.push("/team")}>Our Team</div>
-			<div onClick={() => window.open("https://twitter.com/Emmanuel_Labor", "_blank")}>Twitter</div>
+			<div tabindex="0" onClick={() => router.push("/")}>
+				Home
+			</div>
+			<div tabindex="0" onClick={() => router.push("/feed/1")}>
+				Feed
+			</div>
+			<div tabindex="0" onClick={() => router.push("/team")}>
+				Our Team
+			</div>
+			<div tabindex="0" onClick={() => window.open("https://twitter.com/Emmanuel_Labor", "_blank")}>
+				Twitter
+			</div>
 			<Github />
 		</div>
 	);

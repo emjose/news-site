@@ -7,21 +7,21 @@ export const team = ({ team }) => {
 			<Toolbar />
 
 			<div className={styles.main}>
-				<a href="https://github.com/emjose" target="_blank">
+				<a tabindex="0" href="https://www.instagram.com/cocodottie/" target="_blank">
 					<h1>Coco and Dottie</h1>
 				</a>
 
 				<div className={styles.teamMembers}>
-					<a href="https://www.instagram.com/cocodottie/" target="_blank">
+					<a tabindex="0" href="https://www.instagram.com/cocodottie/" target="_blank">
 						<h6>Canine Executive Officers</h6>
 					</a>
-					<a href="https://www.instagram.com/cocodottie/" target="_blank">
+					<a tabindex="0" href="https://www.instagram.com/cocodottie/" target="_blank">
 						<img
 							src="https://res.cloudinary.com/dn1e07eul/image/upload/v1618168529/100%20Days%20Of%20Code/CocoDottie_copy_q1zaq0.jpg"
 							alt="Coco and Dottie"
 						/>
 					</a>
-					<a href="https://github.com/emjose" target="_blank">
+					<a tabindex="0" href="https://github.com/emjose" target="_blank">
 						<p id="check">Check out our Dad!</p>
 					</a>
 				</div>

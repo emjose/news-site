@@ -3,7 +3,7 @@
 	height: 90px;
 	display: flex;
 	justify-content: center;
-	background: #f62201;
+	background: var(--toolbar-color);
 }
 
 .main div {
@@ -11,16 +11,18 @@
 	cursor: pointer;
 	margin-top: 10px;
 	font-size: 3.5em;
-	color: white;
+	color: var(--white);
 	letter-spacing: 0.5px;
 	font-weight: 900;
-	font-family: "Alfa Slab One", cursive;
-	font-family: "Roboto Slab", serif;
+	font-family: var(--alfa);
+	font-family: var(--roboto);
 	white-space: nowrap;
 }
 
+.main div:focus,
 .main div:hover {
-	color: #fad60b;
+	color: var(--yellow);
+	outline: none;
 }
 
 @keyframes wave {

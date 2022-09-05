@@ -11,30 +11,17 @@
 	margin-top: -10px;
 	font-weight: 400;
 	letter-spacing: 0.5px;
-	color: #026d97;
-	font-family: "Alfa Slab One", cursive;
-	/* font-family: "Roboto Slab", serif; */
+	color: var(--name-color);
+	font-family: var(--alfa);
 }
-
-/* .main p {
-	padding-bottom: 20px;
-} */
-
-/* .main h3 {
-  font-size: 2.5em;
-  margin-top: -20px;
-  font-weight: 700;
-  color: rgb(54, 54, 54);
-  font-family: "BlinkMacSystemFont", sans-serif;
-} */
 
 .main h6 {
 	font-size: 2.65em;
 	margin-top: -15px;
 	font-weight: 700;
 	margin-bottom: 20px;
-	color: #5b9ac2;
-	font-family: "BlinkMacSystemFont", sans-serif;
+	color: var(--ceo-color);
+	font-family: var(--blink);
 }
 
 .main p {
@@ -43,9 +30,9 @@
 	font-weight: 200;
 	margin-bottom: 20px;
 	letter-spacing: 1.5px;
-	color: #5b9bc28c;
-	font-family: "Alfa Slab One", cursive;
-	font-family: "Roboto Slab", serif;
+	color: var(--footer-color);
+	font-family: var(--alfa);
+	font-family: var(--roboto);
 }
 
 .teamMembers {
@@ -57,19 +44,28 @@
 	width: 450px;
 	margin-top: 15px;
 	border-radius: 100%;
-	box-shadow: 4px 6px 19px #77959e;
+	box-shadow: var(--circle-shadow);
 	filter: brightness(110%);
 }
 
 .teamMembers img:active {
-	box-shadow: 4px 6px 19px #77959e;
+	box-shadow: var(--circle-shadow);
 	transform: translateY(5px);
 }
 
 .main h1:hover,
 .main h6:hover,
-.main p:hover {
-	color: red;
+.main p:hover,
+.main a:focus h1,
+.main a:focus h6,
+.main a:focus p {
+	color: var(--red);
+}
+
+.main a:focus img {
+	outline: 8px solid var(--ceo-color);
+	outline-offset: 12px;
+	box-shadow: none;
 }
 
 @media (max-width: 768px) {

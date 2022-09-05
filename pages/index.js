@@ -6,7 +6,7 @@ export default function Home() {
 	return (
 		<div className="page-container">
 			<Head>
-				<meta charset="UTF-8" />
+				<meta charSet="UTF-8" />
 				<title>Dog Day News</title>
 				<meta property="og:title" content="Dog Day News" />
 				<meta property="og:image" content="https://news-site-emjose.vercel.app/meta-027-news.png" />
@@ -25,7 +25,7 @@ export default function Home() {
 			<Toolbar />
 
 			<div className={styles.main}>
-				<a href="/feed/1">
+				<a tabindex="0" href="/feed/1">
 					<h1>Dog Day News</h1>
 				</a>
 			</div>

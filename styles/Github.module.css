@@ -13,13 +13,18 @@
 
 .arm,
 .octoBody {
-	fill: #fff;
+	fill: var(--white);
 }
 
 .ribbonBackground {
-	fill: rgb(165, 34, 1);
+	fill: var(--github-fill);
 }
 
+.svg:focus-within .ribbonBackground {
+	fill: var(--github-focus);
+}
+
+.svg:focus .arm,
 .svg:hover .arm {
 	animation: wave 560ms ease-in-out;
 }

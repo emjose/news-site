@@ -12,13 +12,41 @@ font-family: 'Ramabhadra', sans-serif;
 font-family: 'Secular One', sans-serif;
 font-family: 'Ultra', serif; */
 
+:root {
+	--body-color: #d4f1f7;
+	--black: #000;
+	--white: #fff;
+	--yellow: #fad60b;
+	--red: red;
+	--toolbar-color: #f62201;
+	--github-fill: rgb(165, 34, 1);
+	--github-focus: var(--black);
+	--default: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+		Helvetica Neue, sans-serif;
+	--helvetica: "Helvetica Neue", sans-serif;
+	--roboto: "Roboto Slab", serif;
+	--alfa: "Alfa Slab One", cursive;
+	--blink: "BlinkMacSystemFont", sans-serif;
+	--box-shadow: 4px 4px 16px #92b7c2;
+	--circle-shadow: 4px 6px 19px #77959e;
+	--border: 1px solid lightgray;
+	--name-color: #026d97;
+	--ceo-color: #5b9ac2;
+	--footer-color: #5b9bc28c;
+	--span-color: #0faddd;
+	--paginator: #529db4;
+	--no-page: #a2c9d4;
+	--post-title: #083357;
+	--post-text: rgb(109, 109, 109);
+	--transition: all 0.4s ease-in-out;
+}
+
 html,
 body {
 	padding: 0;
 	margin: 0;
-	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
-		Helvetica Neue, sans-serif;
-	background: #d4f1f7;
+	font-family: var(--default);
+	background: var(--body-color);
 }
 
 a {
@@ -34,4 +62,8 @@ a {
 	display: flex;
 	height: 100vh;
 	flex-direction: column;
+}
+
+:focus {
+	outline: none;
 }
