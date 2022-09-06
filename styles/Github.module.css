@@ -24,7 +24,7 @@
 	fill: var(--github-focus);
 }
 
-.svg:focus .arm,
+.svg:focus-within .arm,
 .svg:hover .arm {
 	animation: wave 560ms ease-in-out;
 }
