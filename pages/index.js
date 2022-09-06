@@ -18,9 +18,12 @@ export default function Home() {
 				<meta property="og:url" content="https://news-site-emjose.vercel.app/" />
 				<meta property="og:type" content="website" />
 				<meta name="twitter:card" content="summary" />
+				<meta name="description" content="An app for dog-related news. Click to visit website." />
+				<meta name="theme-color" content="#FFFFFF" />
 				<meta name="keywords" content="HTML, CSS, JavaScript, Next.js, news, dogs, dog, newsapi" />
 				<meta name="author" content="Emmanuel Jose" />
 				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+				<link rel="icon" href="/favicon.ico" />
 			</Head>
 			<Toolbar />
 
