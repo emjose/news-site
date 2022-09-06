@@ -33,7 +33,7 @@
 	"background_color": "#FFFFFF",
 	"display": "standalone",
 	"lang": "en-US",
-	"id": "https://news-site-emjose.vercel.app/",
+	"id": "https://news-site-beta.vercel.app/",
 	"start_url": "/",
 	"scope": "/",
 	"description": "An app for dog-related news."

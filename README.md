@@ -14,7 +14,7 @@
 
 <br>
 
-<a href="https://news-site-emjose.vercel.app/">![News Site](Assets/preview-027-news-site.png)</a>
+<a href="https://news-site-beta.vercel.app/">![News Site](Assets/preview-027-news-site.png)</a>
 
 #
 
@@ -27,6 +27,8 @@
 -   [Live Site](#live-site)
 -   [Resources](#resources)
 -   [Let's Connect!](#lets-connect)
+
+<br>
 
 #
 
@@ -41,6 +43,8 @@
 
 -   Thank you to <a href="https://github.com/portexe">Zack Wilson / PortEXE</a> for his excellent <a href="https://youtu.be/xtItzwYG6oQ">Next.js + NewsAPI tutorial on YouTube!</a>
 -   **Note:** Although the News API fetch request has parameters for the keyword "dogs," some articles unrelated to dogs appear in the newsfeed.
+
+<br>
 
 #
 
@@ -119,23 +123,29 @@ npm run dev
 
 **9. Open [http://localhost:3000](http://localhost:3000) with your browser to launch the News Site app.**
 
+<br>
+
 #
 
 <p id="live-site"><p>
 
-<a href="https://news-site-emjose.vercel.app/">![Live Site](https://res.cloudinary.com/dn1e07eul/image/upload/v1659389947/Readme%20Headers/inter-live-site_ngkqcf.png)</a>
+<a href="https://news-site-beta.vercel.app/">![Live Site](https://res.cloudinary.com/dn1e07eul/image/upload/v1659389947/Readme%20Headers/inter-live-site_ngkqcf.png)</a>
 
-<a href="https://news-site-emjose.vercel.app/">![Live Site](Assets/027-news-site-1.gif)</a>
+<a href="https://news-site-beta.vercel.app/">![Live Site](Assets/027-news-site-1.gif)</a>
 
-Users can browse the newsfeed and app pages.
+• **[Dog Day News](https://news-site-beta.vercel.app/)** is a [progressive web app](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps).
+
+• Users can browse the newsfeed and app pages.
 
 #
 
 <br>
 
-<a href="https://news-site-emjose.vercel.app/">![Live Site](Assets/027-news-site-2.gif)</a>
+<a href="https://news-site-beta.vercel.app/">![Live Site](Assets/027-news-site-2.gif)</a>
 
-Users can navigate newsfeed pages.
+Users can navigate 10 pages of the most recent dog-related news.
+
+<br>
 
 #
 
@@ -160,6 +170,8 @@ Users can navigate newsfeed pages.
 -   #### [Coding A News App With Next.js](https://youtu.be/xtItzwYG6oQ) by [Zack Wilson / PortEXE](https://www.youtube.com/channel/UCjGQyJCSU_VVMTu5nigonqg)
 
 -   #### [My blog on how I created my Github READMEs](https://emmanueljose.medium.com/readme-a-makeover-story-b9c7be37a6de?sk=7ae6623d365409d875753e4604e42ffd)
+
+<br>
 
 #
 
