@@ -1,10 +1,32 @@
 import styles from "../styles/Team.module.css";
 import { Toolbar } from "../components/toolbar";
+import Head from "next/head";
 
 export const team = ({ team }) => {
 	return (
 		<div className="page-container">
 			<Toolbar />
+
+			<Head>
+				<meta charSet="UTF-8" />
+				<title>Dog Day News</title>
+				<meta property="og:title" content="Dog Day News" />
+				<meta property="og:image" content="https://news-site-beta.vercel.app/meta-027-news.png" />
+				<meta
+					property="og:image:alt"
+					content="The words 'Dog Day News' in front of a French bulldog. Click to visit website."
+				/>
+				<meta property="og:description" content="Project by Emmanuel Jose" />
+				<meta property="og:url" content="https://news-site-beta.vercel.app/" />
+				<meta property="og:type" content="website" />
+				<meta name="twitter:card" content="summary" />
+				<meta name="description" content="An app for dog-related news. Click to visit website." />
+				<meta name="theme-color" content="#FFFFFF" />
+				<meta name="keywords" content="HTML, CSS, JavaScript, Next.js, news, dogs, dog, newsapi" />
+				<meta name="author" content="Emmanuel Jose" />
+				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+				<link rel="icon" href="/favicon.ico" />
+			</Head>
 
 			<div className={styles.main}>
 				<a tabIndex="0" href="https://www.instagram.com/cocodottie/" target="_blank">
@@ -13,7 +35,7 @@ export const team = ({ team }) => {
 
 				<div className={styles.teamMembers}>
 					<a tabIndex="0" href="https://www.instagram.com/cocodottie/" target="_blank">
-						<h6>Canine Executive Officers</h6>
+						<h2>Canine Executive Officers</h2>
 					</a>
 					<a tabIndex="0" href="https://www.instagram.com/cocodottie/" target="_blank">
 						<img

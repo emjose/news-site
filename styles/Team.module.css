@@ -15,7 +15,7 @@
 	font-family: var(--alfa);
 }
 
-.main h6 {
+.main h2 {
 	font-size: 2.65em;
 	margin-top: -15px;
 	font-weight: 700;
@@ -30,7 +30,7 @@
 	font-weight: 200;
 	margin-bottom: 20px;
 	letter-spacing: 1.5px;
-	color: var(--footer-color);
+	color: var(--name-color);
 	font-family: var(--alfa);
 	font-family: var(--roboto);
 }
@@ -54,10 +54,10 @@
 }
 
 .main h1:hover,
-.main h6:hover,
+.main h2:hover,
 .main p:hover,
 .main a:focus h1,
-.main a:focus h6,
+.main a:focus h2,
 .main a:focus p {
 	color: var(--red);
 }
@@ -69,7 +69,7 @@
 }
 
 @media (max-width: 768px) {
-	.main h6 {
+	.main h2 {
 		font-size: 2.6em;
 	}
 
@@ -83,7 +83,7 @@
 		font-size: 3em;
 	}
 
-	.main h6 {
+	.main h2 {
 		font-size: 2.1em;
 	}
 
@@ -101,7 +101,7 @@
 		font-size: 2.35em;
 	}
 
-	.main h6 {
+	.main h2 {
 		margin-top: 1px;
 		font-size: 1.65em;
 	}
@@ -122,7 +122,7 @@
 		font-size: 2em;
 	}
 
-	.main h6 {
+	.main h2 {
 		margin-top: 5px;
 		font-size: 1.35em;
 	}
