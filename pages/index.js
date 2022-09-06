@@ -28,7 +28,7 @@ export default function Home() {
 			<Toolbar />
 
 			<div className={styles.main}>
-				<a tabindex="0" href="/feed/1">
+				<a tabIndex="0" href="/feed/1">
 					<h1>Dog Day News</h1>
 				</a>
 			</div>

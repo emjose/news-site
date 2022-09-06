@@ -1,6 +1,7 @@
 import styles from "../../styles/Feed.module.css";
 import { useRouter } from "next/router";
 import { Toolbar } from "../../components/toolbar";
+import Head from "next/head";
 
 export const Feed = ({ pageNumber, articles }) => {
 	const router = useRouter();
@@ -8,10 +9,31 @@ export const Feed = ({ pageNumber, articles }) => {
 	return (
 		<div className="page-container">
 			<Toolbar />
+			<Head>
+				<meta charSet="UTF-8" />
+				<title>Dog Day News</title>
+				<meta property="og:title" content="Dog Day News" />
+				<meta property="og:image" content="https://news-site-beta.vercel.app/meta-027-news.png" />
+				<meta
+					property="og:image:alt"
+					content="The words 'Dog Day News' in front of a French bulldog. Click to visit website."
+				/>
+				<meta property="og:description" content="Project by Emmanuel Jose" />
+				<meta property="og:url" content="https://news-site-beta.vercel.app/" />
+				<meta property="og:type" content="website" />
+				<meta name="twitter:card" content="summary" />
+				<meta name="description" content="An app for dog-related news. Click to visit website." />
+				<meta name="theme-color" content="#FFFFFF" />
+				<meta name="keywords" content="HTML, CSS, JavaScript, Next.js, news, dogs, dog, newsapi" />
+				<meta name="author" content="Emmanuel Jose" />
+				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+				<link rel="icon" href="/favicon.ico" />
+			</Head>
+
 			<div className={styles.main}>
 				{articles.map((article, index) => (
 					<button
-						tabindex="0"
+						tabIndex="0"
 						onClick={() => window.open(article.url, "_blank")}
 						key={index}
 						className={styles.post}
@@ -19,17 +41,13 @@ export const Feed = ({ pageNumber, articles }) => {
 						{!!article.urlToImage && <img src={article.urlToImage} alt="news article image" />}
 						<h1>{article.title}</h1>
 						<p>{article.description}</p>
-						{/* <h3>
-							{" "}
-							<span>Read more</span>
-						</h3> */}
 					</button>
 				))}
 			</div>
 
 			<div className={styles.paginator}>
 				<button
-					tabindex="0"
+					tabIndex="0"
 					onClick={() => {
 						if (pageNumber > 1) {
 							router.push(`/feed/${pageNumber - 1}`).then(() => window.scrollTo(0, 0));
@@ -43,7 +61,7 @@ export const Feed = ({ pageNumber, articles }) => {
 				<button>Page {pageNumber}</button>
 
 				<button
-					tabindex="0"
+					tabIndex="0"
 					onClick={() => {
 						if (pageNumber < 10) {
 							router.push(`/feed/${pageNumber + 1}`).then(() => window.scrollTo(0, 0));

@@ -5,11 +5,6 @@ import { Github } from "./github";
 export const Toolbar = () => {
 	const router = useRouter();
 
-	const handleClick = (e) => {
-		e.preventDefault();
-		router.push(href);
-	};
-
 	return (
 		<div className={styles.main}>
 			<button type="button" onClick={() => router.push("/")}>

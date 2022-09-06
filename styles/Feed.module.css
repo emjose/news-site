@@ -53,7 +53,8 @@ font-family: 'Ultra', serif; */
 }
 
 .post img {
-	width: 100%;
+	width: 400px;
+	aspect-ratio: auto;
 	min-height: 300px;
 	max-height: 300px;
 	object-fit: cover;
@@ -150,6 +151,7 @@ font-family: 'Ultra', serif; */
 .paginator .disabled {
 	cursor: not-allowed;
 	color: var(--no-page);
+	visibility: hidden;
 }
 
 @media (max-width: 1330px) {
