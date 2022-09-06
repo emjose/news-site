@@ -42,7 +42,6 @@
 -   I'm a proud Dog Dad of <a href="https://www.instagram.com/cocodottie/">two rescue dogs</a>, and I applied a dog theme to the news site.
 
 -   Thank you to <a href="https://github.com/portexe">Zack Wilson / PortEXE</a> for his excellent <a href="https://youtu.be/xtItzwYG6oQ">Next.js + NewsAPI tutorial on YouTube!</a>
--   **Note:** Although the News API fetch request has parameters for the keyword "dogs," some articles unrelated to dogs appear in the newsfeed.
 
 <br>
 
@@ -135,6 +134,8 @@ npm run dev
 
 • **[Dog Day News](https://news-site-beta.vercel.app/)** is a [progressive web app](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps).
 
+• **[Dog Day News](https://news-site-beta.vercel.app/)** is responsive and keyboard-navigable.
+
 • Users can browse the newsfeed and app pages.
 
 #
@@ -143,7 +144,9 @@ npm run dev
 
 <a href="https://news-site-beta.vercel.app/">![Live Site](Assets/027-news-site-2.gif)</a>
 
-Users can navigate 10 pages of the most recent dog-related news.
+• Users can navigate 10 pages of the most recent dog-related news.
+
+• **Note:** Although the News API fetch request has parameters for the keyword "dogs," some articles unrelated to dogs appear in the newsfeed.
 
 <br>
 
