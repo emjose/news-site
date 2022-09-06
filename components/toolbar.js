@@ -5,20 +5,25 @@ import { Github } from "./github";
 export const Toolbar = () => {
 	const router = useRouter();
 
+	const handleClick = (e) => {
+		e.preventDefault();
+		router.push(href);
+	};
+
 	return (
 		<div className={styles.main}>
-			<div tabindex="0" onClick={() => router.push("/")}>
+			<button type="button" onClick={() => router.push("/")}>
 				Home
-			</div>
-			<div tabindex="0" onClick={() => router.push("/feed/1")}>
+			</button>
+			<button type="button" onClick={() => router.push("/feed/1")}>
 				Feed
-			</div>
-			<div tabindex="0" onClick={() => router.push("/team")}>
+			</button>
+			<button type="button" onClick={() => router.push("/team")}>
 				Our Team
-			</div>
-			<div tabindex="0" onClick={() => window.open("https://twitter.com/Emmanuel_Labor", "_blank")}>
+			</button>
+			<button type="button" onClick={() => window.open("https://twitter.com/Emmanuel_Labor", "_blank")}>
 				Twitter
-			</div>
+			</button>
 			<Github />
 		</div>
 	);

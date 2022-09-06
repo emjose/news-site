@@ -6,7 +6,7 @@
 	background: var(--toolbar-color);
 }
 
-.main div {
+.main button {
 	margin: 20px;
 	cursor: pointer;
 	margin-top: 10px;
@@ -17,10 +17,13 @@
 	font-family: var(--alfa);
 	font-family: var(--roboto);
 	white-space: nowrap;
+	background: none;
+	border: none;
+	padding-bottom: 16px;
 }
 
-.main div:focus,
-.main div:hover {
+.main button:focus,
+.main button:hover {
 	color: var(--yellow);
 	outline: none;
 }
@@ -41,7 +44,7 @@
 }
 
 @media (max-width: 860px) {
-	.main div {
+	.main button {
 		padding-top: 20px;
 		margin: 10px;
 		font-size: 2em;
@@ -49,25 +52,25 @@
 }
 
 @media (max-width: 575px) {
-	.main div {
+	.main button {
 		font-size: 1.8em;
 	}
 }
 
 @media (max-width: 520px) {
-	.main div {
+	.main button {
 		font-size: 1.6em;
 	}
 }
 
 @media (max-width: 480px) {
-	.main div {
+	.main button {
 		font-size: 1em;
 	}
 }
 
 @media (max-width: 350px) {
-	.main div {
+	.main button {
 		font-size: 0.9em;
 	}
 }
