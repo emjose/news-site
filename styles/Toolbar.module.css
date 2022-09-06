@@ -19,7 +19,7 @@
 	white-space: nowrap;
 	background: none;
 	border: none;
-	padding-bottom: 16px;
+	padding-bottom: 20px;
 }
 
 .main button:focus,
@@ -46,13 +46,7 @@
 @media (max-width: 860px) {
 	.main button {
 		padding-top: 20px;
-		margin: 10px;
-		font-size: 2em;
-	}
-}
-
-@media (max-width: 575px) {
-	.main button {
+		margin: 8px;
 		font-size: 1.8em;
 	}
 }

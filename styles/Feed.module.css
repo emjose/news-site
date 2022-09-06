@@ -20,9 +20,14 @@ font-family: 'Ultra', serif; */
 	grid-gap: 60px;
 }
 
+.main button {
+	padding: 0;
+	margin: 0;
+}
+
 .post {
 	width: 400px;
-	height: 565px;
+	height: 480px;
 	margin-bottom: 5px;
 	cursor: pointer;
 	border: var(--border);
@@ -58,8 +63,7 @@ font-family: 'Ultra', serif; */
 }
 
 .post h1 {
-	padding-top: 10px;
-	font-size: 1.15em;
+	font-size: 1.45em;
 	color: var(--post-title);
 	text-align: left;
 	cursor: pointer;
@@ -68,11 +72,11 @@ font-family: 'Ultra', serif; */
 	font-family: var(--helvetica);
 	padding-left: 15px;
 	padding-right: 15px;
-	height: 90px;
+	height: 60px;
 	overflow: hidden;
 	text-overflow: ellipsis;
 	display: -webkit-box;
-	-webkit-line-clamp: 3;
+	-webkit-line-clamp: 2;
 	-webkit-box-orient: vertical;
 }
 
@@ -80,9 +84,8 @@ font-family: 'Ultra', serif; */
 	color: var(--post-text);
 	padding-left: 15px;
 	padding-right: 15px;
-	font-size: 1em;
+	font-size: 1.2em;
 	line-height: 1.45;
-	margin-top: 15px;
 	height: 70px;
 	overflow: hidden;
 	text-overflow: ellipsis;
@@ -104,7 +107,6 @@ font-family: 'Ultra', serif; */
 }
 
 .paginator {
-	width: 100%;
 	display: flex;
 	justify-content: center;
 	font-size: 2.5em;
@@ -115,9 +117,19 @@ font-family: 'Ultra', serif; */
 	color: var(--paginator);
 }
 
-.paginator div {
+.paginator button {
 	margin: 25px;
-	padding-bottom: 20px;
+	padding: 12px;
+	background: none;
+	border: none;
+	text-align: center;
+	justify-content: center;
+	font-size: 1em;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	white-space: nowrap;
+	font-family: var(--roboto);
+	color: var(--paginator);
 }
 
 .paginator .active:focus {
@@ -164,19 +176,29 @@ font-family: 'Ultra', serif; */
 
 @media (max-width: 600px) {
 	.main {
-		margin: 40px auto;
+		margin: 30px auto;
 		display: grid;
 		grid-template-columns: repeat(1, 1fr);
 		grid-gap: 30px;
 	}
 
-	.post {
-		width: 350px;
+	.paginator {
+		font-size: 1.5em;
 	}
 
-	.paginator {
-		margin: 20px;
-		font-size: 1.5em;
+	.paginator button {
+		margin: 5px;
+		padding: 5px;
+	}
+
+	.post {
+		width: 300px;
+		height: 380px;
+	}
+
+	.post img {
+		min-height: 200px;
+		max-height: 200px;
 	}
 }
 
@@ -191,15 +213,5 @@ font-family: 'Ultra', serif; */
 	.paginator {
 		margin: 10px;
 		font-size: 1em;
-	}
-
-	.post {
-		width: 300px;
-		height: 500px;
-	}
-
-	.post img {
-		min-height: 250px;
-		max-height: 250px;
 	}
 }

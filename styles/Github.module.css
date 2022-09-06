@@ -44,47 +44,8 @@
 	}
 }
 
-@media (max-width: 500px) {
-	.svg:hover .arm {
-		animation: none;
-	}
-
-	.svg:hover .arm {
-		animation: wave 560ms ease-in-out;
-	}
-}
-
-@media (max-width: 860px) {
+@media (max-width: 600px) {
 	.svg {
-		height: 85px;
-		width: 85px;
-	}
-}
-
-@media (max-width: 575px) {
-	.svg {
-		height: 80px;
-		width: 80px;
-	}
-}
-
-@media (max-width: 520px) {
-	.svg {
-		height: 76px;
-		width: 76px;
-	}
-}
-
-@media (max-width: 480px) {
-	.svg {
-		height: 62px;
-		width: 62px;
-	}
-}
-
-@media (max-width: 350px) {
-	.svg {
-		height: 60px;
-		width: 60px;
+		display: none;
 	}
 }

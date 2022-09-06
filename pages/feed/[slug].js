@@ -10,7 +10,7 @@ export const Feed = ({ pageNumber, articles }) => {
 			<Toolbar />
 			<div className={styles.main}>
 				{articles.map((article, index) => (
-					<div
+					<button
 						tabindex="0"
 						onClick={() => window.open(article.url, "_blank")}
 						key={index}
@@ -19,16 +19,16 @@ export const Feed = ({ pageNumber, articles }) => {
 						{!!article.urlToImage && <img src={article.urlToImage} alt="news article image" />}
 						<h1>{article.title}</h1>
 						<p>{article.description}</p>
-						<h3>
+						{/* <h3>
 							{" "}
 							<span>Read more</span>
-						</h3>
-					</div>
+						</h3> */}
+					</button>
 				))}
 			</div>
 
 			<div className={styles.paginator}>
-				<div
+				<button
 					tabindex="0"
 					onClick={() => {
 						if (pageNumber > 1) {
@@ -37,12 +37,12 @@ export const Feed = ({ pageNumber, articles }) => {
 					}}
 					className={pageNumber === 1 ? styles.disabled : styles.active}
 				>
-					Previous
-				</div>
+					Prev
+				</button>
 
-				<div>Page {pageNumber}</div>
+				<button>Page {pageNumber}</button>
 
-				<div
+				<button
 					tabindex="0"
 					onClick={() => {
 						if (pageNumber < 10) {
@@ -52,7 +52,7 @@ export const Feed = ({ pageNumber, articles }) => {
 					className={pageNumber === 10 ? styles.disabled : styles.active}
 				>
 					Next
-				</div>
+				</button>
 			</div>
 		</div>
 	);
