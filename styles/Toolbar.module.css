@@ -43,7 +43,7 @@
 	}
 }
 
-@media (max-width: 860px) {
+@media (max-width: 1020px) {
 	.main button {
 		padding-top: 20px;
 		margin: 8px;
@@ -58,13 +58,19 @@
 }
 
 @media (max-width: 480px) {
+	.main {
+		height: 60px;
+		background: var(--toolbar-mobile);
+	}
+
 	.main button {
 		font-size: 1em;
+		padding-top: 12px;
 	}
 }
 
 @media (max-width: 350px) {
 	.main button {
-		font-size: 0.9em;
+		font-size: 0.95em;
 	}
 }

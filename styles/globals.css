@@ -19,6 +19,7 @@ font-family: 'Ultra', serif; */
 	--yellow: #fad60b;
 	--red: red;
 	--toolbar-color: #f62201;
+	--toolbar-mobile: #cc1b00;
 	--github-fill: rgb(165, 34, 1);
 	--github-focus: var(--black);
 	--default: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
